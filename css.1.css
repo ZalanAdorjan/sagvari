@@ -1,0 +1,31 @@
+td {
+    background-color: brown;
+    width: 70px;
+    height: 80px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 10px 3px 6px black;
+    cursor:pointer;
+
+    
+
+}
+table {
+    border-spacing: 10px;
+    margin: auto;
+
+}
+body {
+    background-color: darkolivegreen;
+    text-align: center;
+    text-decoration: underline;
+}
+.kutyus {
+    background-color: burlywood;
+    
+}
+td:hover{
+    background-color: dodgerblue;
+}
+    
+
