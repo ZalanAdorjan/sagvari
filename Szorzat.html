@@ -1,0 +1,26 @@
+<head>
+  <link rel="stylesheet" href="szorzat.css" />
+</head>
+<body>
+  <input id="d1" type="range" value="0" onmousemove="g()" />
+  <span id="c1"></span><br />
+  <input id="d2" type="range" value="0" onmousemove="g()" />
+  <span id="c2"></span><br />
+  <h1>Szorzat:</h1>
+  <div id="proba"></div>
+
+  <a href="/index.html">Főoldal</a>
+</body>
+
+<script>
+  a = 0;
+  b = 0;
+  function g() {
+    a = Number(document.getElementById("d1").value);
+    document.getElementById("c1").innerHTML = a;
+    b = Number(document.getElementById("d2").value);
+    document.getElementById("c2").innerHTML = b;
+    proba = document.getElementById("proba");
+    proba.innerHTML = a * b;
+  }
+</script>

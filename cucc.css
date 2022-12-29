@@ -1,0 +1,11 @@
+a {
+  color: rgb(112, 93, 28);
+  margin-left: 250px;
+}
+a:hover {
+  color: green;
+  background-color: darkblue;
+}
+body {
+  background-color: burlywood;
+}

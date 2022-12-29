@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+  background-color: bisque;
+  text-shadow: 3px 4px 7px;
+  text-decoration: underline;
+  text-decoration-color: brown;
+}
+a:hover {
+  color: darkgreen;
+  background-color: blue;
+}
